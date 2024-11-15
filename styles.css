@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.digital-watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5em;
+    background-color: #000;
+    border: 5px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#time {
+    color: #00ff00;
+}
+
+#name {
+    font-size: 0.4em;
+    margin-top: 20px;
+    color: #ffffff;
+}
